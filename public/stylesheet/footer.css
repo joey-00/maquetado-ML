@@ -1,0 +1,26 @@
+.footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(2, 82, 202);
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+    text-decoration: none;
+    margin: 40px;
+}
+.footer__section h4{
+    font-size: 16px;
+    font-weight: 700;
+    font-weight: bold;
+    color: var(--GrisOscuro);
+} 
+.footer__section p{
+    font-size: 13px;
+    color: var(--GrisOscuro);
+}
