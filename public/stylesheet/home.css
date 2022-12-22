@@ -1,0 +1,32 @@
+.main__section{
+    padding: 10px;
+}
+.main__section__article h3{
+    font-size: var(--Precios);
+}
+.main__section__article h5{
+    color: var(--Verde);
+    font-size: 12px;
+}
+.main__section--ultimaVisita{
+    text-align: left;
+    margin: 10px;
+}
+.main__section--ofertas{ 
+    text-align: left;
+    margin: 10px;
+}
+.main__section__article h2{
+    font-size: var(--Titulares);
+    margin: 0px;
+   
+}
+.main__section--descuento{
+    color: var(--Verde);
+    font-size: var(--Descuento);
+
+}
+.main__section--descripcion{
+    color: black;
+    font-size: var(--Descripciones)
+}

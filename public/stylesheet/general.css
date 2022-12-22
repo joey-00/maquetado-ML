@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: none;
+    font-family: var(--tipografiaGeneral);
+}
+.body{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}

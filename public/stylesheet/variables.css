@@ -1,0 +1,13 @@
+:root{
+    --tipografiaGeneral : 'Roboto';
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --GrisOscuro: #666;
+    --GrisClaro: #ebebeb;
+    --Verde: #39b54a;
+    --CuerposDeTexto: 12px;
+    --Titulares/*  (Basado en tu última visita/Ofertas) */: 24px;
+    --Precios: 18px;
+    --Descuentos: 16px;
+}
