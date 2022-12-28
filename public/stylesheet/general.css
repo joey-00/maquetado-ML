@@ -1,12 +1,13 @@
 *{
-    margin: 0%;
-    padding: 0px;
     box-sizing: border-box;
-    text-transform: none;
-    font-family: var(--tipografiaGeneral);
+    margin: 0;
+  
 }
 .body{
-    text-align: center;
+    background-color: var(--GrisClaro);
+    /* text-align: center; */
+    font-family: var(--tipografiaGeneral);
+    width: 100%;
 }
 a{
     text-decoration: none;

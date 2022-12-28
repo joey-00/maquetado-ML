@@ -1,8 +1,21 @@
-.main__section{
-    padding: 10px;
+.main{
+    
+    width: 90%;
+    margin: 0 auto;
 }
-.main__section__article h3{
-    font-size: var(--Precios);
+.main__section__article{
+    background-color: white;
+    margin: 10px;
+}
+.main__section--banner{
+    width: 100%;
+}
+.main img{
+    width: 100%;
+    
+}   
+.main__section__article p{
+    font-size: var(--Descuentos) ;
 }
 .main__section__article h5{
     color: var(--Verde);
@@ -12,12 +25,12 @@
     text-align: left;
     margin: 10px;
 }
-.main__section--ofertas{ 
+.main__section--ofertas{
     text-align: left;
     margin: 10px;
 }
 .main__section__article h2{
-    font-size: var(--Titulares);
+    font-size: var(--Precios);
     margin: 0px;
    
 }

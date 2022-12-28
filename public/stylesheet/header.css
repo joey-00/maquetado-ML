@@ -1,8 +1,7 @@
 .header{
-    
-    height: 100%;
     /* background-image: linear-gradient(to bottom right, #f0e5af, #EAC926, #f0eacc, #EAC926); */
     background-color: var(--Amarillo);
+    padding: 10px;
 }    
 .header p{
     font-size: 12px;
@@ -15,13 +14,12 @@
     display: flex;
     flex-direction: row;
     justify-content:left;
-    margin: 0px 2px 15px 30px;
-    margin-bottom: 15px;  
+    margin: 0px 2px 15px 30px;  
 }
 .header__div--cuadro{
     width: 100%;
     text-align: left;
-    margin: 15px;
+    margin: 5px;
     margin-bottom: 0px;
 }
 .header__div--cuadro input{
@@ -42,7 +40,7 @@
     justify-content: center;
     align-items: center;
     color:black;
-    margin: 15px;
+    margin: 5px;
     margin-top: 0px;
     padding: 0px;
     font-size: 17px;
@@ -51,19 +49,16 @@
     display: flex;
     flex-direction:column;
     justify-content:left;
-    align-items:stretch;
     text-align: left;
-    margin-top: 15px;
+    margin-top: 5px;
     font-size: 12px;
 }
 .header__nav--tienda{
-    margin-top: 10px;
-    margin-bottom: 10px;
     color: black
 }
 .header__nav--log{
-    margin-bottom: 10px;
-    color: black;
+    margin: 5px 0px 5px;
+    color: black
 }
 .burger-menu{
     display: flex;
@@ -83,12 +78,11 @@
     justify-content: center;
     align-items: center;
     color: white;
-    margin: 0px;
     margin-top: 20px;
-    padding: 0px;
+    margin-bottom: 10px;
     font-size: 25px;
 }
 .header p{
     text-align: center;
-    margin: 10px;
+    margin: 5px;
 }
