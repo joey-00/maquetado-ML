@@ -10,15 +10,20 @@
 </head>
 <body class="body">
     <header class="header">
-        <img src="/images/logo-mercado-liebre.svg" alt="logo">
-        <div class="header__div--cuadro">
-            <input type="search" id="busqueda" name="q" placeholder="buscar productos, marcas"/>
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-        <p>
-            <i class="fa-solid fa-hand-holding-dollar"></i>
-            Comprá en cuotas y sin tarjeta de crédito
-        </p>
+        <section class="header__section--index">
+            <div class="cont-logo">
+                <img class="logo" src="/images/logo-mercado-liebre.svg" alt="logo">
+            </div>
+            
+            <div class="header__div--cuadro">
+                <input type="search" id="busqueda" name="q" placeholder="buscar productos, marcas"/>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <p>
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </p>
+        </section>
         <nav class="header__nav">
             <ul class="header__nav--tienda">
                 <li><a href="">Ofertas</a></li>
@@ -48,16 +53,18 @@
             <img class="main__section__img" src="/images/img-home-banner.jpg" alt="" width="100%">
         </section>
     
+        <h2>Basado en tu ultima visita</h2>
         <section class="main__section">
-            <h2>Basado en tu ultima visita</h2>
             <article class="main__section__article">
                 <img class="img" src="/images/img-cafetera-moulinex.jpg" alt="cafetera moulinex" width="200px">
                     <div class="main__section__article__div">
                         <div class="main__section__article__div--truck">
                             <i class="fa-solid fa-truck"></i>
                         </div>
-                        <h2>$6.770</h2>
-                        <p class="main__section--descuento">40% OFF</p>
+                        <div class="main__section__article__div--precio">
+                            <h2>$6.770</h2>
+                            <p class="main__section--descuento">40% OFF</p>
+                        </div>
                         <h2 class="main__section--descripcion">Cafetera Moulinex</h2>
                     </div>
             </article>
@@ -67,8 +74,10 @@
                         <div class="main__section__article__div--truck">
                             <i class="fa-solid fa-truck"></i>
                         </div>
-                        <h2>$230.000</h2>
-                        <p class="main__section--descuento">20% off</p>
+                        <div class="main__section__article__div--precio">
+                            <h2>$230.000</h2>
+                            <p class="main__section--descuento">20% off</p>
+                        </div>
                         <h2 class="main__section--descripcion">MacBook Pro 2019</h2>
                     </div>
             </article>
@@ -78,8 +87,10 @@
                         <div class="main__section__article__div--truck">
                             <i class="fa-solid fa-truck"></i>
                         </div>
-                        <h2>$70.500</h2>
-                        <p class="main__section--descuento">10% off</p>
+                        <div class="main__section__article__div--precio">
+                            <h2>$70.500</h2>
+                            <p class="main__section--descuento">10% off</p>
+                        </div>
                         <h2 class="main__section--descripcion">Samsung Galaxy S10</h2>
                     </div>
             </article>
@@ -89,14 +100,16 @@
                     <div class="main__section__article__div--truck">
                         <i class="fa-solid fa-truck"></i>
                     </div>
-                    <h2>$23.200</h2>
-                    <p class="main__section--descuento">5% off</p>
+                    <div class="main__section__article__div--precio">
+                        <h2>$23.200</h2>
+                        <p class="main__section--descuento">5% off</p>
+                    </div>
                     <h2 class="main__section--descripcion">SmartTv Samsung 43"</h2>
                 </div>
             </article>
         </section>
+        <h2>Ofertas para vos.</h2>
         <section class="main__section">
-            <h2>Ofertas para vos.</h2>
             <article class="main__section__article">
                 <img class="img" src="/images/Motorola Edge 30.webp" alt="Celular Motorola" width="200px">
                     <div class="main__section__article__div">
@@ -104,8 +117,10 @@
                             <i class="fa-solid fa-truck"></i>
                         </div>
                         <h5><del>$110.999</del></h5>
-                        <h2>$99.999</h2>
-                        <p class="main__section--descuento">16% off</p>
+                        <div class="main__section__article__div--precio">
+                            <h2>$99.999</h2>
+                            <p class="main__section--descuento">16% off</p>
+                        </div>
                         <h2 class="main__section--descripcion">Motorola Edge 30 128 GB gris 8 GB</h2>
                     </div>
             </article>
@@ -116,8 +131,10 @@
                             <i class="fa-solid fa-truck"></i>
                         </div>
                         <h5><del>$15.999</del></h5>
-                        <h2>$13.999</h2>
-                        <p class="main__section--descuento">12% off</p>
+                        <div class="main__section__article__div--precio">
+                            <h2>$13.999</h2>
+                            <p class="main__section--descuento">12% off</p>
+                        </div>
                         <h2 class="main__section--descripcion">Ventilador de pie peabody PE-VE2060 20"</h2>
                     </div>
             </article>
@@ -128,9 +145,25 @@
                             <i class="fa-solid fa-truck"></i>
                         </div>
                         <h5><del>$50.299</del></h5>
-                        <h2>$43.199</h2>
-                        <p class="main__section--descuento">14% off</p>
+                        <div class="main__section__article__div--precio">
+                            <h2>$43.199</h2>
+                            <p class="main__section--descuento">14% off</p>
+                        </div>
                         <h2 class="main__section--descripcion">Smart TV Philco LED HD 32" 220V</h2>
+                    </div>
+            </article>
+            <article class="main__section__article">
+                <img class="img" src="/images/aire acondicionado.webp" alt="Aire acondicionado BGH" width="200px">
+                    <div class="main__section__article__div">
+                        <div class="main__section__article__div--truck">
+                            <i class="fa-solid fa-truck"></i>
+                        </div>
+                        <h5><del>$183.999</del></h5>
+                        <div class="main__section__article__div--precio">
+                            <h2>$167.999</h2>
+                            <p class="main__section--descuento">8% off</p>
+                        </div>
+                        <h2 class="main__section--descripcion">Aire acondicionado BGH Silent Air 3000 frigorías</h2>
                     </div>
             </article>
         </section>
