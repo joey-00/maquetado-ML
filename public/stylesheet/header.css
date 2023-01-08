@@ -2,7 +2,8 @@
     /* background-image: linear-gradient(to bottom right, #f0e5af, #EAC926, #f0eacc, #EAC926); */
     background-color: var(--Amarillo);
     
-}   
+} 
+  
 .header__section--index{
     display: flex;
     flex-wrap: wrap;

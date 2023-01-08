@@ -27,3 +27,32 @@
     color: var(--GrisOscuro);
     padding-bottom: 35px;
 }
+.footer__section--copi{
+    display: flex;
+    justify-content: center;
+    color: var(--GrisOscuro);
+    padding-top: 15px;
+ }
+
+@media (min-width: 480px){
+     .footer__section{
+        display: flex;
+        flex-wrap: nowrap;
+     }
+     .footer__section p{
+        font-size: 12px;
+        color: var(--GrisOscuro);
+        padding: 5px 35px;
+     }
+     .footer__section--copi{
+        display: flex;
+        justify-content: center;
+        color: var(--GrisOscuro);
+        padding-top: 15px;
+     }
+}
+@media (min-width: 791px) {
+    .footer__section--copi{
+        padding-top: 25px;
+     }
+}
