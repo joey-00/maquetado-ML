@@ -34,7 +34,7 @@
     padding-top: 15px;
  }
 
-@media (min-width: 480px){
+@media (min-width: 768px){
      .footer__section{
         display: flex;
         flex-wrap: nowrap;
@@ -51,7 +51,7 @@
         padding-top: 15px;
      }
 }
-@media (min-width: 791px) {
+@media (min-width: 1024px) {
     .footer__section--copi{
         padding-top: 25px;
      }

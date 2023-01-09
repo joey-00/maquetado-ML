@@ -1,0 +1,113 @@
+.registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100vw;
+    margin: 0 auto;
+    
+}
+.registro  h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: var(--titulares);
+    width: 96vw;
+    color: var(--GrisOscuro);
+    margin-left: 0;
+}
+.registro form{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 3px;
+    padding: 0px 10px;
+}
+.registro .container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.registro  .container label{
+    margin-bottom: 5px;
+}
+
+.registro  .container input{
+    padding: 4px;
+    margin-top: 10px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: var(--GrisClaro);
+    border-radius: 3px;
+    border-style: none;
+    color: var(--GrisOscuro);
+    font-style: italic;
+}
+
+.registro .container small{
+    color: var(--GrisOscuro);
+    margin-top: 0 px;
+}
+.registro   h4{
+    margin-top: 5px;
+}
+.registro .Intereses{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Perfil{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.registro button {
+    padding: 2px;
+    color: white;
+    background-color: var(--Celeste);
+    border-color: var(--GrisClaro);
+    border-width: 1px;
+    border-radius: 3px;
+    margin-bottom: 20px; 
+}
+.registro button a{
+    color: white;
+    background-color: var(--Celeste);
+}
+
+/* Tablet */
+@media (min-width:768px){
+    .registro form{
+        padding: 10px 30px;  
+    }
+    .registro button {
+        width: 30%;
+
+    }
+}
+
+/* Desktop */
+@media (min-width:1024px){
+    .registro .Intereses .Perfil{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .registro button {
+        width: 50%;
+
+    }
+}
