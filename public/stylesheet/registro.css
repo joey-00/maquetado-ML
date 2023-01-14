@@ -85,7 +85,7 @@
     background-color: var(--Celeste);
 }
 
-/* Tablet */
+
 @media (min-width:768px){
     .registro form{
         padding: 10px 30px;  
@@ -96,7 +96,6 @@
     }
 }
 
-/* Desktop */
 @media (min-width:1024px){
     .registro .Intereses .Perfil{
         display: flex;

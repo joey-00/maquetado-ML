@@ -31,7 +31,6 @@
       width: 90%;
 }
 .header__div--cuadro{
-    display: flex;
     width: 50%;
     text-align: left;
     margin-bottom: 0px;
@@ -43,21 +42,27 @@
     height: 23px;
     font-size: 15px;
 }
+.header__div--cuadro button{
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    bottom: 2px;
+    border: none;
+    background-color: white;
+    border-top: 1px solid var(--GrisOscuro);
+    color: var(--GrisOscuro);
+    margin-bottom: 2px;
+}
 .header i.fa-solid.fa-magnifying-glass{
     background-color: white;
     width: 11px;
     height: 11px;
-    top: 6px;
     right: 9px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     color: black;
     margin-top: 0px;
-    padding: 0px;
+    padding: 5px;
     font-size: 17px;
-    position: absolute;
+    
 }
 .header__nav--tienda{
     display: none;
