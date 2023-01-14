@@ -14,26 +14,31 @@
     flex-wrap: wrap;
     
 }
+.main__section :hover{
+    box-shadow: 0px 0px 10px rgb(100 100 100); 
+}
+.main__section--banner{
+    width: 100%;
+}
+
 .main__section__article{
     background-color: white;
     margin: 10px;
     padding: 15px;
-    box-shadow: 0px 0px 10px white;
+    /* box-shadow: 0px 0px 10px white; */
 }
 .main__section__article :hover{
-   box-shadow: 0px 0px 10px rgb(100 100 100); 
+    box-shadow: none;
 }
 
-.main__section--banner{
-    width: 100%;
-}
-.main img{
-    width: 100%;
-}
 .main__section__article__div{
     width: 100%;
     border-top: 1px solid var(--GrisClaro);
     position: relative;
+    
+}
+.main img{
+    width: 100%;
 }
 .main__section__article__div--truck{
     border: 1px solid var(--Verde);
@@ -56,6 +61,7 @@
     margin-top: 15px;
 }
 .main__section__article__div--precio h2{
+    color: var(--GrisOscuro);
     font-size: var(--Precios);
     margin-right: 5px;
 }
@@ -81,7 +87,13 @@
 
 }
 .main__section--descripcion{
-    display: none;
+    color: white;
+    font-size: var(--Descripciones);
+    margin-top: 25px;
+}
+.main__section--descripcion :hover{
+    color: var(--GrisOscuro);
+    
 }
 
 
@@ -89,12 +101,7 @@
     .main__section{
       justify-content: space-between;
     }
-    .main__section--descripcion{
-        color: var(--GrisOscuro);
-        font-size: var(--Descripciones);
-        display: block;
-        margin-top: 25px;
-    }
+    
     .main__section__article{
         width: 42%;
         justify-content: center;

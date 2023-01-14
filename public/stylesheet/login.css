@@ -36,14 +36,13 @@
 }
 .login button a{
     color: white;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
 }
-.login button :hover{
+.login__button__enviar :hover{
+    width: 100%;
     background-color: #0022AA;
-    border-color: #0022AA;
-    color: white;
+    border-color: #0022AA; 
 }
-
 
 
 @media (min-width:768px){
