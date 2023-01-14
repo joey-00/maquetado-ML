@@ -36,7 +36,14 @@
 }
 .login button a{
     color: white;
+    transition-duration: 0.4s;
 }
+.login button :hover{
+    background-color: #0022AA;
+    border-color: #0022AA;
+    color: white;
+}
+
 
 
 @media (min-width:768px){
