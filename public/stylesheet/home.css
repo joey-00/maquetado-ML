@@ -60,39 +60,45 @@
     align-items: center;
     margin-top: 15px;
 }
-.main__section__article__div--precio h2{
+.main__section__article__div--precio h3{
     color: var(--GrisOscuro);
     font-size: var(--Precios);
     margin-right: 5px;
 }
-.main__section__article p{
-    font-size: var(--Descuentos) ;
-}
-.main__section__article h5{
+.main__section__article__div h5{
     color: var(--GrisOscuro);
     font-size: 12px;
     margin-bottom: 0px;
 }
-.main__section--ultimaVisita{
+.main__section__article__div p{
+    font-size: var(--Descuentos) ;
+}
+/* .main__section--ultimaVisita{
     text-align: left;
     margin: 10px;
-}
-.main__section--ofertas{
+} */
+/* .main__section--ofertas{
     text-align: left;
     margin: 10px;
-}
-.main__section--descuento{
+} */
+.main__section__article__div--descuento{
     color: var(--Verde);
     font-size: var(--Descuento);
 
 }
-.main__section--descripcion{
+.main__section__article__div--descripcion {
     color: white;
     font-size: var(--Descripciones);
-    margin-top: 25px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0px;
+    transition: all 1s;
+    
 }
-.main__section--descripcion :hover{
+.main__section__article__div--descripcion :hover{
     color: var(--GrisOscuro);
+    
+    
     
 }
 
